@@ -1,7 +1,6 @@
-/* header 26   ----->  67 */
-/* first container 70  ----->  165 */
-
-
+/* header 26   ----->  74 */
+/* first container 76  ----->  175 */
+/* second container 177  -----> 241 */
 
 *{
   margin: 0;
@@ -21,6 +20,10 @@ body{
   background-color: black;
   color: white;
   font-family: "Poppins", sans-serif;
+}
+
+.pd-y{
+  padding:85px 0;
 }
 
 /* start nav */
@@ -69,8 +72,10 @@ nav i{
 
 /* end nav */
 
+/* start first container */
 .container{
   margin-left: 17%;
+  margin-right: 17%;
 }
 
 .first{
@@ -88,7 +93,7 @@ nav i{
 
 .gradient{
   background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,69,60,0.560749299719888) 100%);
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,69,60,0.3310574229691877) 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -166,4 +171,70 @@ nav i{
   font-size: 1rem;
   color:rgba(80, 177, 158, 0.94) ;
 }
+/* end first container */
 
+/* start second container */
+.second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-content{
+  width: 80%;
+}
+
+.second .services-content h3{
+  font-size: 1.5rem;
+  color:#409888 ;
+  padding-bottom:30px ;
+}
+
+.second .services-content span{
+  color: #409888;
+  font-weight: bold;
+}
+
+.second .services-content p{
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.second .services-content button{
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: #409888;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.services-images {
+  width: 70%;
+  text-align: center;
+}
+
+.second .services-images div{
+  padding: 3vh;
+  width: 70%;
+  height: 100%;
+}
+
+.second .services-images img{
+  width: 50%;
+  height: 50%;
+}
+
+.second .services-images .card-gradient{
+  background: linear-gradient(0deg, rgba(34,193,195,0.41228991596638653) 0%, rgba(0,0,0,0) 57%);
+  width: 70%;
+  height: 80%;
+}
+
+.second .services-images div p{
+  font-size: 0.7rem;
+}
+
+/* end second container */
