@@ -3,6 +3,9 @@
 /* second container 177  -----> 241 */
 /* third container  247 ----->  302 */
 /* first section 306 ----->  342 */
+/* fourth container  345 ----->  413 */
+/* second section 415  ------> 455 */
+/* fifth container 457  ----->  557 */
 
 
 
@@ -301,7 +304,7 @@ nav i{
 
 /* end third container */
 
-/*start section */
+/*start first section */
 
 .first-section{
   width: 100%;
@@ -339,7 +342,7 @@ nav i{
   height: 30%;
 }
 
-/* end section */
+/* end first section */
 
 /* start fourth container */
 
@@ -411,6 +414,8 @@ nav i{
 
 /* end fourth container */
 
+/* start second section */
+
 .second-section{
   width: 100%;
   height: 40vh;
@@ -446,3 +451,107 @@ nav i{
   width: 50%;
   height: 50%;
 }
+
+/* end second section */
+
+/* start fifth container */
+
+.fifth{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 100vh;
+}
+
+.fifth-right{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.fifth-right .fifth-image{
+  width: 70%;
+  height: 40%;
+  position: relative;
+}
+
+.fifth-right .fifth-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.video-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-size: 30px;
+  width:3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  cursor: pointer;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.fifth-left{
+  margin-top: 20rem;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.fifth-left .icon{
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  margin: 2vh 0;
+}
+
+.fifth-left .icon p{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.fifth-left .icon i{
+  font-size: 20px;
+  color: white;
+  display: flex;
+  padding: 2vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #409888;
+}
+
+.fifth-left{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.fifth-left .fifth-image{
+  width: 70%;
+  height: 40%;
+  position: relative;
+}
+
+.fifth-left .fifth-image img{
+  width: 100%;
+  height: 100%;
+}
+/* end fifth container */
