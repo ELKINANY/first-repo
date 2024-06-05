@@ -1,11 +1,11 @@
 /* header 26   ----->  74 */
-/* first container 76  ----->  175 */
-/* second container 177  -----> 241 */
-/* third container  247 ----->  302 */
+/* home container 76  ----->  175 */
+/* our-services container 177  -----> 241 */
+/* about-us container  247 ----->  302 */
 /* first section 306 ----->  342 */
-/* fourth container  345 ----->  413 */
-/* second section 415  ------> 455 */
-/* fifth container 457  ----->  557 */
+/* latest-projects container  345 ----->  413 */
+/* our-services section 415  ------> 455 */
+/* choose-us container 457  ----->  557 */
 
 
 
@@ -50,7 +50,16 @@ span{
   padding-bottom:30px ;
   letter-spacing: 3px;
   text-transform: uppercase;
+}
 
+.container{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* start nav */
@@ -99,18 +108,9 @@ nav i{
 
 /* end nav */
 
-/* start first container */
-.container{
-  margin-left: 10%;
-  margin-right: 10%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 80%;
-  margin: 0 auto;
-}
+/* start home container */
 
-.first{
+.home{
   position: relative;
   height: 100vh;
   margin-right: 0;
@@ -136,11 +136,11 @@ nav i{
   font-size: 3rem;
 }
 
-.first .agency span{
+.home .agency span{
   color: rgba(80, 177, 158, 0.94);
 }
 
-.hrFirst{
+.hrhome{
   width: 10%;
   height: 1px;
   background-color: rgba(80, 177, 158, 0.94);
@@ -183,7 +183,7 @@ nav i{
   transform: rotate(43deg);
 }
 
-.aboutUs .hrSecond{
+.aboutUs .hrour-services{
   width: 75%;
   height: 1px;
   background-color: rgba(80, 177, 158, 0.318);
@@ -195,21 +195,21 @@ nav i{
   font-size: 1rem;
   color:rgba(80, 177, 158, 0.94) ;
 }
-/* end first container */
+/* end home container */
 
-/* start second container */
+/* start our-services container */
 
 .services-content{
   width: 80%;
 }
 
-.second .services-content p{
+.our-services .services-content p{
   font-size: 1rem;
   display: block;
   margin-bottom: 30px;
 }
 
-.second .services-content button{
+.our-services .services-content button{
   width: 100px;
   height: 50px;
   border: none;
@@ -224,30 +224,30 @@ nav i{
   text-align: center;
 }
 
-.second .services-images div{
+.our-services .services-images div{
   padding: 3vh;
   width: 70%;
   height: 100%;
 }
 
-.second .services-images img{
+.our-services .services-images img{
   width: 50%;
   height: 50%;
 }
 
-.second .services-images .card-gradient{
+.our-services .services-images .card-gradient{
   background: linear-gradient(0deg, rgba(34,193,195,0.41228991596638653) 0%, rgba(0,0,0,0) 57%);
   width: 70%;
   height: 80%;
 }
 
-.second .services-images div p{
+.our-services .services-images div p{
   font-size: 0.7rem;
 }
 
-/* end second container */
+/* end our-services container */
 
-/* start third container */
+/* start about-us container */
 
 .about-content{
   width: 100%;
@@ -302,11 +302,11 @@ nav i{
   font-size: 0.8rem;
 }
 
-/* end third container */
+/* end about-us container */
 
 /*start first section */
 
-.first-section{
+.home-section{
   width: 100%;
   height: 40vh;
   background: linear-gradient(90deg, rgba(0,69,60,0.6139705882352942) 19%, rgba(0,0,0,0) 100%);
@@ -315,7 +315,7 @@ nav i{
 }
 
 
-.first-section .backgound-image{
+.home-section .backgound-image{
   background-image: url("imagess/imagess 4/1.jpg");
   background-size: cover;
   background-position: center;
@@ -327,7 +327,7 @@ nav i{
   z-index: -1;
 }
 
-.first-section .margin-auto{
+.home-section .margin-auto{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -337,16 +337,16 @@ nav i{
   background-color: transparent;
 }
 
-.first-section .margin-auto img{
+.home-section .margin-auto img{
   width: 30%;
   height: 30%;
 }
 
 /* end first section */
 
-/* start fourth container */
+/* start latest-projects container */
 
-.fourth{
+.latest-projects{
   display: flex;
   justify-content: space-evenly;
   width: 90%;
@@ -354,16 +354,16 @@ nav i{
   flex-wrap: wrap;
 }
 
-.fourth .project-content{
+.latest-projects .project-content{
   width: 60%;
 }
 
-.fourth .project-content .image{
+.latest-projects .project-content .image{
   width: 30%;
   height: 50%;
 }
 
-.fourth .top{
+.latest-projects .top{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -374,22 +374,22 @@ nav i{
   margin: 5vh 0;
 }
 
-.fourth .top .lorem .icon{
+.latest-projects .top .lorem .icon{
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.fourth .top .lorem .icon i{
+.latest-projects .top .lorem .icon i{
   color: #409888;
 }
 
-.fourth .top .image{
+.latest-projects .top .image{
   width: 30%;
   height: 50%;
 }
 
-.fourth .top .image img{
+.latest-projects .top .image img{
   width: 100%;
   height: 100%;
 }
@@ -412,7 +412,7 @@ nav i{
   height: 100%;
 }
 
-/* end fourth container */
+/* end latest-projects container */
 
 /* start second section */
 
@@ -454,16 +454,16 @@ nav i{
 
 /* end second section */
 
-/* start fifth container */
+/* start choose-us container */
 
-.fifth{
+.choose-us{
   display: flex;
   justify-content: space-evenly;
   width: 80%;
   height: 100vh;
 }
 
-.fifth-right{
+.choose-us-right{
   width: 50%;
   height: 100%;
   display: flex;
@@ -471,13 +471,13 @@ nav i{
   justify-content: space-evenly;
 }
 
-.fifth-right .fifth-image{
+.choose-us-right .choose-us-image{
   width: 70%;
   height: 40%;
   position: relative;
 }
 
-.fifth-right .fifth-image img{
+.choose-us-right .choose-us-image img{
   width: 100%;
   height: 100%;
 }
@@ -503,7 +503,7 @@ nav i{
   opacity: 0.7;
 }
 
-.fifth-left{
+.choose-us-left{
   margin-top: 20rem;
   width: 50%;
   height: 100%;
@@ -512,20 +512,20 @@ nav i{
   justify-content: space-evenly;
 }
 
-.fifth-left .icon{
+.choose-us-left .icon{
   gap: 10px;
   display: flex;
   align-items: center;
   margin: 2vh 0;
 }
 
-.fifth-left .icon p{
+.choose-us-left .icon p{
   color: white;
   font-size: 1.5rem;
   font-weight: 400;
 }
 
-.fifth-left .icon i{
+.choose-us-left .icon i{
   font-size: 20px;
   color: white;
   display: flex;
@@ -536,7 +536,7 @@ nav i{
   background-color: #409888;
 }
 
-.fifth-left{
+.choose-us-left{
   width: 50%;
   height: 100%;
   display: flex;
@@ -544,14 +544,37 @@ nav i{
   justify-content: space-evenly;
 }
 
-.fifth-left .fifth-image{
+.choose-us-left .choose-us-image{
   width: 70%;
   height: 40%;
   position: relative;
 }
 
-.fifth-left .fifth-image img{
+.choose-us-left .choose-us-image img{
   width: 100%;
   height: 100%;
 }
-/* end fifth container */
+/* end choose-us container */
+
+/* start our-team caontainer */
+
+.our-team-lorem{
+  margin-top: 10rem;
+  background-image: url("imagess/imagess 4/Bg-1.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  height: 50vh;
+}
+
+.expert-team{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  width: 60%;
+}
+
+/* end our-team caontainer */
