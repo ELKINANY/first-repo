@@ -1,14 +1,17 @@
-/* header 26   ----->  74 */
-/* home container 76  ----->  175 */
-/* our-services container 177  -----> 241 */
-/* about-us container  247 ----->  302 */
-/* first section 306 ----->  342 */
-/* latest-projects container  345 ----->  413 */
-/* our-services section 415  ------> 455 */
-/* choose-us container 457  ----->  557 */
-/* portfolio  635 ----->  684 */
-/* testimonails  700 ----->  790 */
-/* blog  794  ----->  878 */
+/* header 81   ----->  125 */
+/* home container 127  ----->  222 */
+/* our-services container 224  -----> 272 */
+/* about-us container  274 ----->  329 */
+/* first section 331 ----->  369 */
+/* latest-projects container  371 ----->  439 */
+/* second section 441  ------> 479 */
+/* choose-us container 481  ----->  581 */
+/* our-team caontainer 583  ----->  654 */
+/* portfolio  656 ----->  707 */
+/* testimonails  709 ----->  797 */
+/* blog  799  ----->  883 */
+/* form  885  ----->  1056 */
+/* footer  1058  ----->  1121 */
 
 
 
@@ -736,8 +739,6 @@ nav i{
   font-weight: bold;
   font-size: 3rem;
 }
-
-
 
 .testimonails button{
   width: 50%;
