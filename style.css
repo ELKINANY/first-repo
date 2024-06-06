@@ -8,10 +8,10 @@
 /* choose-us container 481  ----->  581 */
 /* our-team caontainer 583  ----->  654 */
 /* portfolio  656 ----->  707 */
-/* testimonails  709 ----->  797 */
-/* blog  799  ----->  883 */
-/* form  885  ----->  1056 */
-/* footer  1058  ----->  1121 */
+/* testimonails  709 ----->  801 */
+/* blog  803  ----->  887 */
+/* form  889  ----->  1060 */
+/* footer  1062  ----->  1125 */
 
 
 
@@ -781,6 +781,10 @@ nav i{
   align-items: center;
   gap: 10px;
   margin-top: 3rem;
+}
+
+.business-name{
+  text-transform: capitalize;
 }
 
 .testimonails .right .business p{
