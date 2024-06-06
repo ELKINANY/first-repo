@@ -6,6 +6,9 @@
 /* latest-projects container  345 ----->  413 */
 /* our-services section 415  ------> 455 */
 /* choose-us container 457  ----->  557 */
+/* portfolio  635 ----->  684 */
+/* testimonails  700 ----->  790 */
+
 
 
 
@@ -27,6 +30,10 @@ body{
   background-color: black;
   color: white;
   font-family: "Poppins", sans-serif;
+}
+
+p{
+  opacity: 0.5;
 }
 
 .pd-y{
@@ -194,6 +201,14 @@ nav i{
 .aboutUs p{
   font-size: 1rem;
   color:rgba(80, 177, 158, 0.94) ;
+}
+
+.home .aboutUs span{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 /* end home container */
 
@@ -564,7 +579,7 @@ nav i{
   background-size: cover;
   width: 100%;
   background-position: center;
-  height: 50vh;
+  padding-bottom: 2vh;
 }
 
 .expert-team{
@@ -577,4 +592,285 @@ nav i{
   width: 60%;
 }
 
+.designer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  height: 40vh;
+  background-color: rgb(20, 20, 20);
+  margin: 4vh 0;
+}
+
+.designer-info h2{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2vh;
+  text-transform: capitalize;
+
+}
+
+.designer-info .designer-p{
+  color:#409888 ;
+  text-transform: capitalize;
+}
+
+.designer-info p{
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2vh;
+}
+
+.designer-image{
+  width: 80%;
+  height: 80%;
+  margin-right: 3vh;
+  margin-top: -20%;
+}
+
+.designer-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.designer-icons i{
+  color: #409888;
+  padding: 1vh;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 /* end our-team caontainer */
+
+/* stert portfolio */
+
+.portfolio-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.portfolio-info h2{
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.portfolio-info hr{
+  width: 10%;
+  height: 5px;
+  background-color: #409888;
+}
+
+.portfolio-info p{
+  color: white;
+  opacity: 0.5;
+}
+
+.portfolio-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 80%;
+  margin: 2rem auto;
+
+}
+
+.portfolio-images .images .image{
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-images .images .image img{
+  width: 100%;
+  height: 100%;
+}
+
+/* end portfolio */
+
+/* start testimonails */
+
+.testimonails{
+
+  background-image: url("imagess/imagess 4/adadad.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.testimonails .opacity{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(48, 48, 48, 0.5);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.testimonails .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 60%;
+  margin:2rem auto ;
+}
+
+.testimonails h2{
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+
+
+.testimonails button{
+  width: 50%;
+  height: 4rem;
+  background-color: #409888;
+  text-align: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.testimonails .image{
+  width: 10vh;
+  height: 10vh;
+  margin-right: 1vh;
+}
+
+.testimonails .image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.testimonails .right{
+  background-color: #0000008c;
+  color: white;
+  width: 150%;
+  margin: 2rem auto;
+  padding: 2rem 3rem;
+}
+
+.testimonails .right .business{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 3rem;
+}
+
+.testimonails .right .business p{
+  color: #409888;
+  opacity: 1  ;
+}
+
+.right .icon{
+  color: #409888;
+  font-size: 4rem;
+  margin-top: -4rem;
+}
+
+/* end testimonails */
+
+/* start blog */
+
+.blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.blog h2{
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.blog hr{
+  width: 10%;
+  height: 5px;
+  background-color: #409888;
+  margin: 2rem auto;
+}
+
+.news-blogs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.blogs{
+  display: flex;
+  text-align: left;
+  gap: 10px;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.blogs .news h2{
+  color: #409888;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.blog .news .news-image{
+  width: 100%;
+  height: 40%;
+}
+
+.blog .news .news-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.blog .news .date{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.blog .news .date .icon{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+.blog .news .date .icon i{
+  color: #409888;
+}
+
+.news .date .icon p{
+  color: white;
+}
+
+/* end blog */
