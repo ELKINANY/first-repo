@@ -1071,7 +1071,6 @@ footer{
 
 .footer a h1{
   color: rgba(80, 177, 158, 0.94);
-  /* font-size: 1.6rem; */
   font-weight: bold;
 }
 
@@ -1105,7 +1104,6 @@ footer{
 .footer .social a{
   font-size: 1.5rem;
   color: #409888;
-  /* padding: 1rem; */
 }
 
 /* end footer */
